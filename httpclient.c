@@ -24,7 +24,7 @@
 #ifdef ANDROID
 #include <jni.h>
 #include <android/log.h>
-#define TAG "RockyCapture" // 这个是自定义的LOG的标识
+#define TAG "xxx" // 这个是自定义的LOG的标识
 #define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,TAG ,__VA_ARGS__) // 定义LOGD类型w
 #else
 #define LOGD(...) printf(__VA_ARGS__)
